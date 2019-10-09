@@ -1,0 +1,74 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570535140715" stop="1570535140788">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1570535140715" status="passed" stop="1570535140720">
+      <name>test_login.TestLogin.test_login_0</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4949-MainThread"/>
+        <label name="host" value="Yanyan-Macbook.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1570535140728" status="passed" stop="1570535140730">
+      <name>test_login.TestLogin.test_login_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4949-MainThread"/>
+        <label name="host" value="Yanyan-Macbook.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1570535140730" status="failed" stop="1570535140785">
+      <name>test_login.TestLogin.test_login_2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x1024f8828&gt;
+
+    def test_login_2(self):
+&gt;       assert 0
+E       assert 0
+
+scripts/test_login.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4949-MainThread"/>
+        <label name="host" value="Yanyan-Macbook.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1570535140786" status="failed" stop="1570535140788">
+      <name>test_login.TestLogin.test_login_3</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x102501860&gt;
+
+    def test_login_3(self):
+&gt;       assert 0
+E       assert 0
+
+scripts/test_login.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4949-MainThread"/>
+        <label name="host" value="Yanyan-Macbook.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

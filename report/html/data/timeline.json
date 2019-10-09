@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Yanyan-Macbook.local",
+    "children" : [ {
+      "name" : "4949-MainThread",
+      "children" : [ {
+        "name" : "test_login.TestLogin.test_login_2",
+        "uid" : "18083a377086ee22",
+        "parentUid" : "39a0e4b17d85ac56c37733e83e8578cb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1570535140730,
+          "stop" : 1570535140785,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login.TestLogin.test_login_0",
+        "uid" : "80734b42a8500c41",
+        "parentUid" : "39a0e4b17d85ac56c37733e83e8578cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1570535140715,
+          "stop" : 1570535140720,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login.TestLogin.test_login_1",
+        "uid" : "61a67de6c0dd201d",
+        "parentUid" : "39a0e4b17d85ac56c37733e83e8578cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1570535140728,
+          "stop" : 1570535140730,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login.TestLogin.test_login_3",
+        "uid" : "61f050109604d3cf",
+        "parentUid" : "39a0e4b17d85ac56c37733e83e8578cb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1570535140786,
+          "stop" : 1570535140788,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39a0e4b17d85ac56c37733e83e8578cb"
+    } ],
+    "uid" : "17d6d37c0bd10d4e68a4b6a4fd3b51ee"
+  } ]
+}
